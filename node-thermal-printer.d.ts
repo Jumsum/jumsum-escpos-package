@@ -174,6 +174,12 @@ declare class ThermalPrinter {
   printVerticalTab(): void;
 
   /**
+   * Set text italic
+   * @param Boolean is enabled
+  */
+  italic(enabled: boolean): void;
+
+  /**
    * Set text bold
    * @param Boolean is enabled
   */

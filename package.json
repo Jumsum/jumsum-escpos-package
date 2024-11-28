@@ -29,6 +29,7 @@
     "write-file-queue": "0.0.1"
   },
   "devDependencies": {
-    "@types/node": "^10.14.2"
+    "@types/node": "^10.14.2",
+    "typescript": "^5.7.2"
   }
 }

@@ -59,6 +59,7 @@ printer.upsideDown(true);                                   // Content is printe
 printer.setCharacterSet(CharacterSet.PC852_LATIN2);         // Set character set - default set on init
 printer.setPrinterDriver(Object)                            // Set printer drive - default set on init
 
+printer.italic(true);                                       // Set text italic
 printer.bold(true);                                         // Set text bold
 printer.invert(true);                                       // Background/text color inversion
 printer.underline(true);                                    // Underline text (1 dot thickness)
