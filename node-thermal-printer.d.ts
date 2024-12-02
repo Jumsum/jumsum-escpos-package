@@ -293,6 +293,7 @@ declare class ThermalPrinter {
   /**
    * Insert table of data with custom cell settings
    * @param Array Array of objects
+   * @param Boolean print newline after table
   */
   tableCustom(data: {
     text: string;
@@ -300,7 +301,7 @@ declare class ThermalPrinter {
     width?: number;
     cols?: number;
     bold?: boolean;
-  }[]): void;
+  }[], newLine: boolean = true): void;
 
   /**
    * Check if printer is connected
