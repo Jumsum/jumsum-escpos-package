@@ -301,7 +301,7 @@ declare class ThermalPrinter {
     width?: number;
     cols?: number;
     bold?: boolean;
-  }[], newLine: boolean = true): void;
+  }[], newLine: boolean): void;
 
   /**
    * Check if printer is connected
